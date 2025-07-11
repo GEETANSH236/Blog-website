@@ -1,0 +1,25 @@
+.postimg img{
+    width: 100%;
+}
+.postimg{
+    height: 400px;
+    overflow: hidden;
+    margin-top: 14px;
+}
+.blog h1{
+    text-align: center;
+}
+.blog p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.row{
+    display: flex;
+}
+.moreposts{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

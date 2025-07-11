@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog -Heaven for Bloggers</title>
+    <link rel="stylesheet" href="./css/utility.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto m-all">
+        <div class="nav-left">
+            <span>iBlog</span>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="./search.html" method="get" >
+                <input class="form-inp" type="text" placeholder="Article Search" name="query">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="m-auto max-width-1 m-all ">
+        <hr>
+    </div>
+    <div class="contact-content" >
+         <h2 class=" m-auto max-width-1 " style="font-size: 50px; ">Feel Free to Reach Out!</h2>
+        <div class="contact-form">
+            <div class="formbox" >
+                <label for="name">Enter Your Name :</label>
+                <input type="text" placeholder="Your Name" required name="name">
+            </div>
+            <div class="formbox">
+                <label for="email">Enter Your Email :</label>
+                <input type="email" placeholder="Your Email" required name="email">
+            </div>
+            <div class="formbox">
+                <label for="message">Enter Your Message :</label>
+                <textarea placeholder="Your Message" required name="message" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </div>
+        
+    </div>
+   
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

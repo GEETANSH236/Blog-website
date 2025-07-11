@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1200px) {
+  /* Styles for smartphones (portrait) */
+  .navigation{
+    flex-direction: column;
+    margin-bottom: 10vh;
+  }
+  .nav-left{
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-right form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .content-right{
+    display: none;
+  }
+  .content-left {
+    width: 100%;
+    text-align: center;
+    margin-top: 45vh;
+
+  }
+  .nav-left ul li a {
+    font-size: 15px;
+  }
+  .homeArticleContent {
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+  }
+  .homeArticle{
+    margin-bottom: 10vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content::after{
+    margin-top: 45vh;
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Hide scrollbar but allow scrolling */
+.body {
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.contact-content {
+  margin-top: 30px;
+  position: relative;
+  background-image: url(./asset/11.svg);
+}
+.contact-content::after{
+  content: "";
+  background-image: url(./asset/11.svg);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.19;
+  border-radius: 50px;
+  z-index: -1;
+}
+.contact-form{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  height: 100%;
+  flex-direction: column;
+}
+.formbox{
+  width:60vw;
+}
+.formbox input, .formbox textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.formbox label{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  display: block;
+}
+.btn{
+  padding: 10px 20px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
